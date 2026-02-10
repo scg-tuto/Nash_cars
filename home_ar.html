@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Up.jpeg" type="image/x-icon">
+    <title>Nash Cars Services</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="main">
+    <header>
+    <div class="header-container">
+        <div class="logo-section">
+          <a href="index.html">
+            <img src="img/top.jpeg" alt="Precision Auto Care Logo" width="250" height="80">
+          </a>
+        </div>
+            <nav>
+          <ul class="nav-menu">
+            <li><a href="services_ar.html">خدماتنا</a></li>
+            <li><a href="contact_ar.html">تواصل معنا</a></li>
+            <!--<li><a href="index.php">Admin</a></li> have one in here-->
+            <li class="lang-switch"><a href="index.html">Eng</a></li>
+          </ul>
+          <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+ <!-- <section class="about-section">-->
+    <div class="content">
+      <h1>
+       <!-- <div class="feature-item">
+        <div class="feature-icon">✓</div>-->
+        <i class="fas fa-tools"></i> مركز ناش لخدمات<span><i class="fas fa-tools"></i></span>
+      </h1>      
+      <hr>
+    
+      <p class="par">
+        في مركز ناش لخدمات السيارات، نقدم أفضل خدمات صيانة السيارات وأكثرها موثوقية على مدار الساعة.
+
+بخبرة تزيد عن 9 سنوات، نلتزم بإعادتك إلى الطريق بأمان وكفاءة.
+
+نجمع بين الحرفية العالية والتواصل الشفاف، لنقدم لك خدمات صيانة موثوقة، ونصائح صادقة يمكنك الاعتماد عليها.
+      </p>
+    </div>
+    </div>
+      <!--<div class="about-image">
+        <img src="img/mini.jpeg" alt="Our Auto Shop" class="about-side-img">
+      </div>
+    </section>-->
+   </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Precision Auto Care</h3>
+            <p>Your trusted partner for professional automotive services and repairs.</p>
+            <div class="social-links">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Twitter</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>Phone: +962-7-9897-7571</p>
+            <p>Email: N.Haddad@nashcarjo.com</p>
+          </div>
+          <div class="footer-section">
+            <h4>Business Hours</h4>
+            <p>24/7 Assistance</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2016 Nash Car Services. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        if (menuToggle) {
+          menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
